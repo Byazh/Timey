@@ -1,0 +1,27 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.sams.fish",
+    "displayName": "Sam's Fish",
+    "merchantCapabilities": [
+      "3DS",
+      "debit",
+      "credit"
+    ],
+    "supportedNetworks": [
+      "amex",
+      "visa",
+      "discover",
+      "masterCard"
+    ],
+    "countryCode": "US",
+    "currencyCode": "USD",
+    "requiredBillingContactFields": [
+      "emailAddress",
+      "name",
+      "phoneNumber",
+      "postalAddress"
+    ],
+    "requiredShippingContactFields": []
+  }
+}

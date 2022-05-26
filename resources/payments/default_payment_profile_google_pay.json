@@ -1,0 +1,38 @@
+{
+  "provider": "google_pay",
+  "data": {
+    "environment": "TEST",
+    "apiVersion": 2,
+    "apiVersionMinor": 0,
+    "allowedPaymentMethods": [
+      {
+        "type": "CARD",
+        "tokenizationSpecification": {
+          "type": "PAYMENT_GATEWAY",
+          "parameters": {
+            "gateway": "stripe",
+            "Stripe:version": "2020-08-27", 
+            "stripe:publishableKey": "pk_test_51KHh10GwmH2dLbeodUTvuBiADolYBN4YcF07xRdzuppzrCOjHgJYMTO29ylU0yRlJ1bbmiP0xlSdrVC2KFpocQ9X00WqwIwZsU"
+          }
+        },
+        "parameters": {
+          "allowedCardNetworks": ["VISA", "MASTERCARD"],
+          "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+          "billingAddressRequired": true,
+          "billingAddressParameters": {
+            "format": "FULL",
+            "phoneNumberRequired": true
+          }
+        }
+      }
+    ],
+    "merchantInfo": {
+      "merchantId": "BCR2DN6TQ657RNJA",
+      "merchantName": "Marcello Sottero"
+    },
+    "transactionInfo": {
+      "countryCode": "IT",
+      "currencyCode": "EUR"
+    }
+  }
+}
