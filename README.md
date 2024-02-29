@@ -23,4 +23,6 @@ An app to stay focused on your work, eliminating procrastination and distraction
 
 ![Apple iPhone 11 Pro Max Screenshot 6](https://user-images.githubusercontent.com/43955533/170515680-68a996d0-6876-43d0-b7a3-b5d5e708dfa1.png)
 
-Missing pictures: friends and settings pages
+More than 65,000 downloads, of which 45,000 are from Android users
+
+![Screenshot (33)](https://github.com/Byazh/Timey/assets/43955533/4311d96c-c9f7-4d12-a174-4ea859f98944)
